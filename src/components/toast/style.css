@@ -1,0 +1,16 @@
+.toast-item {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: #444;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.25s ease-in;
+}
+
+.toast-item.visible {
+    opacity: 1;
+}

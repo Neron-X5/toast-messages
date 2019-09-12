@@ -1,0 +1,14 @@
+.app {
+    text-align: center;
+}
+
+.button {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 1.25rem;
+    background: #eb94d0;
+    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+}
